@@ -1,10 +1,10 @@
-pipeline {
+	pipeline {
     agent any
 
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/<YOUR_GITHUB_USERNAME>/E-CommerceWebsite.git'
+                git https://github.com/Bhargava7032/E-CommerceWebsite
             }
         }
 
@@ -25,3 +25,5 @@ pipeline {
         }
     }
 }
+
+
